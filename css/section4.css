@@ -1,0 +1,33 @@
+.section4__img-container{
+    position: relative;
+    height: 906px;
+    padding: 7.5rem;
+}
+.section4__background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom:0;
+    right: 42%;
+    background-color: #B6FFC0 ;
+    z-index: 0;
+}
+.img__container,.outer__img{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+.container__img:first-child{
+    margin-bottom: 8rem;
+}
+.section4__img{
+    height: 50vh;
+    width: 33vw;
+    z-index: 10;
+    object-fit:cover;
+}
+.outer__img{
+    height: 85vh;
+    width: 40vw;
+    margin-left: 8rem;
+}

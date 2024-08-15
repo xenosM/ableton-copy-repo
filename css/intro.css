@@ -1,0 +1,21 @@
+.intro{
+}
+.intro__img-wrapper{
+    padding:0 8rem ;
+}
+.intro__img{
+    height: 600px ;
+    width: 100%;
+    background-image: url(../pictures/man-working.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro__img-title{
+    font-size: var(--size-9xl);
+    font-weight: 500;
+    color: #ff764d;
+}
+

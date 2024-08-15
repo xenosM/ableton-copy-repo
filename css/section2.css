@@ -1,0 +1,28 @@
+.section2__img-container{
+width: 110%;
+height: 100vh;
+padding: 5rem 0;
+position: relative;
+}
+.section2__img-background{
+    background-color: #fbffa7;
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    left: 41.66667vw;
+    bottom: 0;
+}
+.section2__img-1{
+    position: absolute;
+    width: 40vw;
+    height: 40vw;
+    left: 120px;
+    top: 70px;
+}
+.section2__img-2{
+    position: absolute;
+    width: 33vw;
+    height: 25vw;
+    right: 130px;
+    top: 140px;
+}

@@ -1,0 +1,37 @@
+.section6{
+    .collage__container{
+        position: relative;
+        height: 58.33333vw;
+    }
+    .collage__background{
+        --value-:250px;
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: var(--value-);
+        right: var(--value-);
+        background-color: #D5B3FF ;
+        z-index: -100;
+    }
+    .img__container{
+        position: absolute;
+        top: 50%;
+        left: 56%;
+        width: 95%;
+        transform: translate(-50%,-50%);
+    }
+    .collage__img{
+        display: inline-block;
+        vertical-align: middle;   
+        object-fit: cover;
+    }
+    .left__img{
+        height: 50vh;
+        width: 33vw;
+    }
+    .right__img{
+        height: 80vh;
+        width: 45vw;
+        margin-left: 13rem;
+    }
+}

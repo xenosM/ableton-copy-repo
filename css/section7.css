@@ -1,0 +1,30 @@
+.section7{
+    .section7__container{
+        width:84vw ;
+        height: 83vh;
+        margin: 0 auto;
+    }
+    .flex{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .section7__img{
+        height: 100%;
+    }
+    .text__container{
+        background-color: #B1C5FF;
+        align-items: center;
+        padding: 11rem 8rem;
+    }
+    .section7__text{
+        font-size: var(--size-3xl);
+        font-weight: 500;
+        margin-bottom: 4rem;
+    }
+    .section7__link{
+        color:blue;
+        text-decoration: none;
+        font-size: var(--size-3xl);
+        font-weight: 500;
+    }
+}

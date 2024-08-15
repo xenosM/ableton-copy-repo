@@ -1,0 +1,14 @@
+.section3__video-container{
+    display: block;
+    margin:0 auto;
+    width:768px ;
+    height:432px;
+}
+.section3__video{
+    border: none;
+}
+.section3__video-subtitle{
+    text-align: left;
+    margin-top: 0.5rem;
+    font-size: var(--size-xs);
+}
